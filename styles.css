@@ -129,6 +129,16 @@ main section:nth-child(4) {
     animation-delay: .6s;
 }
 
+@media (max-width: 576px){
+    nav{
+        width: 0px;
+    }
+
+    main {
+        width: 100%;
+    }
+}
+
 @keyframes toTop {
     from {
         opacity: 0;
